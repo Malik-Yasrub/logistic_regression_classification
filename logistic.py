@@ -12,7 +12,7 @@ from numpy import loadtxt, where, zeros, e, array, log, ones, mean
 from pylab import scatter, show, legend, xlabel, ylabel, plot
 import math 
 
-data = np.loadtxt('addmission.txt', delimiter=',')
+data = np.loadtxt('admission.txt', delimiter=',')
 X = data[:, 0:2]
 y =  data[:, 2]
 pos = np.where(y == 1)
